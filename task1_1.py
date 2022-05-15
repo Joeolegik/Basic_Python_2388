@@ -1,4 +1,4 @@
-seconds = int(input('Введите секунды для расчёта времени: '))
+seconds = int(input('Введите секунды для расчёта точного времени: '))
 if seconds <= 60:
     print(seconds, 'сек')
 elif 60 < seconds < 3600:
